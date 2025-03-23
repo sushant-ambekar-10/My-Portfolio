@@ -48,7 +48,7 @@ export default function Askme() {
           {detailsOf}
         </h2>
         {imageOf ? (
-          <img src={imageOf} className="w-7 h-7 m-2 rounded-md opacity-70" />
+          <img alt='' src={imageOf} className="w-7 h-7 m-2 rounded-md opacity-70" />
         ) : (
           <></>
         )}
