@@ -2,8 +2,6 @@
 import React, { useEffect, useState } from 'react';
 import '../index.css'; // Import the CSS for animation
 import img from '../img/img.jpg';
-import vid from '../img/cover.mp4';
-import Header from './Header';
 import {TypeAnimation} from 'react-type-animation';
 
 const AnimatedHeader = () => {
@@ -19,7 +17,7 @@ const AnimatedHeader = () => {
     <header id="header" className={` header ${isExpanded ? 'expanded' : 'shrink'} shadow-xl ${isExpanded ? 'bg-yellow-400 flex justify-center items-center' : ''}  h-screen`} >
       {isExpanded?(
         <div className='justify-items-center gap-10 ' >
-        <img src={img} className='h-80 mb-5 rounded-full shadow-2xl'/>
+        <img src={img} className='h-80 mb-5 rounded-full shadow-2xl' alt=''/>
         <h1 className='text-2xl font-bold text-black '>
             Sushant Ambekar
         </h1>
