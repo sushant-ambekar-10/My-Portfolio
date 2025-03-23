@@ -79,7 +79,7 @@ export default function Social() {
                 <p className="mt-2">
                 </p>
                 <br></br>
-                <a
+                <a rel="noreferrer"
                   className=" shadow-xl text-center bg-slate-900 hover:scale-150 hover:opacity-90 text-yellow-50 rounded-md py-2 px-4 items-center justify-items-center pt-3"
                   target="_blank"
                   href="mailto:sushantsambekar@gmail.com"
@@ -91,7 +91,7 @@ export default function Social() {
                 <p className="mt-2">
                 </p>
                 <br></br>
-                <a
+                <a rel="noreferrer"
                   className=" shadow-xl text-center bg-slate-900 hover:scale-150 hover:opacity-90 text-yellow-50 rounded-md py-2 px-4 items-center justify-items-center pt-3"
                   target="_blank"
                   href="mailto:23030151@gmail.com"
