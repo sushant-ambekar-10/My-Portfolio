@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import Header from "./pages/Header";
 import Home from "./pages/Home";
 import MetaData from "./pages/MetaData";
 import Projects from "./pages/Projects";
 import AnimatedHeader from "./pages/AnimatedHeader";
-import img from "./img/img.jpg";
+// import img from "./img/img.jpg";
 import React, { useEffect, useState } from "react";
 import Footer from "./pages/Footer";
 import Social from "./pages/Social";
@@ -87,16 +87,16 @@ function MainContent(){
            {/* <Header/> */}
         </div> 
         <div
-        className={`${location.pathname!="/metadata"?"pb-10 justify-items-center":""} ${bg} bg-opacity-90 transition-all duration-500 ${
+        className={`${location.pathname!=="/metadata"?"pb-10 justify-items-center":""} ${bg} bg-opacity-90 transition-all duration-500 ${
           isExpanded ? "h-full" : "h-screen"
         }  mb-100 `}
       >
         {/* <h1 className='mb-5 ml-3'>Jyoti Ambekar</h1> */}
 
-         {location.pathname!="/metadata" && <AnimatedHeader />}
+         {location.pathname!=="/metadata" && <AnimatedHeader />}
 
         {/* <img src={img}  className='float-left mr-4 mb-4 h-30'></img> */}
-        <div className={`  bg-slate-300 shadow-xl width rounded-xl ${location.pathname!="/metadata"?"p-5 m-5":""} `} >
+        <div className={`  bg-slate-300 shadow-xl width rounded-xl ${location.pathname!=="/metadata"?"p-5 m-5":""} `} >
           
           
           
@@ -113,7 +113,7 @@ function MainContent(){
         
 
         <div className=" bg-slate-200 rounded-xl shadow-xl" id="Footer">
-        {location.pathname!="/metadata" && <Footer/>}
+        {location.pathname!=="/metadata" && <Footer/>}
         </div>
       </div>
     </div>
