@@ -9,16 +9,16 @@ import AnimatedHeader from "./pages/AnimatedHeader";
 import React, { useEffect, useState } from "react";
 import Footer from "./pages/Footer";
 import Social from "./pages/Social";
-import { BrowserRouter as Router, Route, Routes , Link , useLocation} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes  , useLocation} from "react-router-dom";
 
 function App() {
-  const [isExpanded, setIsExpanded] = useState(false);
+  // const [isExpanded, setIsExpanded] = useState(false);
   
 
-  useEffect(() => {
-    const timer = setTimeout(() => setIsExpanded(true), 2000);
-    return () => clearTimeout(timer);
-  }, []);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => setIsExpanded(true), 2000);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   
   
@@ -38,9 +38,10 @@ function App() {
 
 function MainContent(){
   const [isExpanded, setIsExpanded] = useState(false);
-  const [scrollPercentage, setScrollPercentage] = useState(0);
+  const [, setScrollPercentage] = useState(0);
   const [bg, setBg] = useState("");
 
+  // scrollPercentage?{}:{}
 
   useEffect(() => {
       const handleScroll = () => {
