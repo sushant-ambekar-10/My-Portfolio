@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* AnimatedHeader.css */
+
+/* Full-screen header */
+.header {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  color: white;
+  width: 100%;
+  height: 100vh; /* Full screen initially */
+  font-size: large;
+  transition: height 1s ease-in-out; 
+  overflow: hidden;
+}
+
+/* After 1 second, shrink the header */
+.shrink {
+  height: 75%; /* Original header size */
+  width: 95%;
+  border-radius: 20px;
+  margin-top: 5px;
+  background-image: url("./img/cover.jpg");
+  background-position: left unset;
+  background-repeat: no-repeat;
+}
+
+.opa{
+
+  animation: op 2s infinite;
+
+}
+.opar{
+
+  animation: opr 2s infinite;
+
+}
+
+
+@keyframes op {
+  0%,100%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0.5;
+  }
+}
+
+@keyframes opr {
+  50%{
+    opacity: 1;
+  }
+  0%,100%{
+    opacity: 0.5;
+  }
+}
+
+#cover{
+}
+
+#metadata{
+  background-image: url("img/bg2.jpg");
+}
+
+#metadata-mb{
+  background-image: url("img/bg.jpg");
+}
+
+#Footer{
+  height: 30%;
+  width: 95%;
+}
+
+.fade{
+  animation: fadeanimation 4s ease-in-out;
+}
+
+.fade-2{
+  animation: fadeanimation2 2s ease-in-out;
+}
+
+.width{
+  width: 90%;
+}
+
+.floating {
+  animation: floating 3s  infinite;
+}
+
+.in-out{
+  animation: fadeanimation 2s ease-in-out;
+}
+
+
+.view { 
+  animation: appear linear; 
+  animation-timeline: view(); 
+  animation-range: entry 0% 
+}
+
+  @keyframes appear { 
+    from { 
+    opacity: 0; 
+    scale: 0.5; 
+    } 
+    to { 
+    opacity: 1; 
+    scale: 1; 
+    } 
+  } 
+
+@keyframes floating {
+  0% ,100%{
+    transform: translatex(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  
+}
+
+@keyframes fadeanimation {
+
+  0%{opacity: 0; }
+  100%{opacity: 0.6;}
+  
+}
+
+@keyframes fadeanimation2 {
+
+  0%{opacity: 0; }
+  100%{opacity: 0.9;}
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');

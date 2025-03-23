@@ -1,0 +1,68 @@
+{
+    "personal_details": [
+        {
+      "full_name": "Sushant Sanjay Ambekar",
+      "email": [
+        "sushantsambekar@gmail.com",
+        " , 23030151@ycce.in"
+      ],
+      "diploma_branch": "Information Technology",
+      "btech_branch": "Computer Science & Engineering"
+    }
+    ],
+    "qualifications": 
+    [{
+      "ssc": "90.80%",
+      "diploma": "88%",
+      "SGPA":[ 
+        8.66, 8.80, 8.99
+      ],
+      "cgpa":"8.82"
+    }],
+    "projects": [
+      {
+        "name": "CARE NOW",
+        "description": "An Android application that helps patients connect with caregivers according to their needs and provides job opportunities for caregivers."
+      },
+      {
+        "name": "JAVA COMPILER",
+        "description": "A fully working Java compiler based on Java, designed with VB.NET, incorporating some operating system commands."
+      },
+      {
+        "name": "LOCITY",
+        "description": "An Android application that helps daily city bus passengers track the live location of any city bus in real-time."
+      },
+      {
+        "name": "Digital Library",
+        "description": "A website providing study material related to Information Technology for all semesters, hosted at http://gpnd-digital-lab.rf.gd."
+      },
+      {
+        "name": "MY PORTFOLIO",
+        "description": "Me-tadata is my personal website introducing myself."
+      }
+    ],
+    "achievements": [
+      "1st Rank in Final Projects in Diploma or Capstone Project Execution.",
+      "2nd Rank in Diploma in IT in Government Polytechnic Nanded.",
+      "4th Rank in Smackathon in Upsurge Event, YCCE-23.",
+      "One of the top 10 rankers (CGPA) in Academics."
+    ],
+    "certifications": [
+      "IBM Cloud Certification",
+      "Kalavati Technologies Internship Certification",
+      "Web Development (Udemy)",
+      "DevOps Certification (Coursera)"
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "MERN Stack",
+      "WordPress",
+      "Tailwind CSS",
+      "MySQL",
+      "Firebase",
+      "Android using Java",
+      "IBM Cloud"
+    ]
+  }
+  
