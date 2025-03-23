@@ -1,7 +1,7 @@
-import Header from "../pages/Header";
-import AnimatedHeader from "./AnimatedHeader";
-import React, { useEffect, useState } from "react";
-import Footer from "./Footer";
+// import Header from "../pages/Header";
+// import AnimatedHeader from "./AnimatedHeader";
+// import React, { useEffect, useState } from "react";
+// import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import insta from "../img/image.png";
 import profile from "../img/emailp.jpg";
@@ -55,7 +55,7 @@ export default function Home() {
 
         <div className="md:flex p-5 justify-items-center justify-between">
           <div className="md:w-1/5 mb-2 mx-2 bg-white bg-opacity-80 justify-items-center px-5 py-10 rounded-lg hover:scale-105">
-            <img
+            <img alt=''
               src={[personal]}
               className="w-1/2 rounded-full shadow-sm hover:shadow-xl"
             />
@@ -70,7 +70,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="md:w-1/5 mb-2 mx-2 bg-white bg-opacity-80 justify-items-center px-5 py-10 rounded-lg hover:scale-105">
-            <img
+            <img alt=''
               src={education}
               className="w-1/2 rounded-full shadow-sm hover:shadow-xl"
             />
@@ -85,7 +85,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="md:w-1/5 mb-2 mx-2 bg-white bg-opacity-80 justify-items-center px-5 py-10 rounded-lg hover:scale-105">
-            <img
+            <img alt=''
               src={skills}
               className="w-1/2 rounded-full shadow-sm hover:shadow-xl"
             />
@@ -98,7 +98,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="md:w-1/5 mb-2 mx-2 bg-white bg-opacity-80 justify-items-center px-5 py-10 rounded-lg hover:scale-105">
-            <img
+            <img alt=''
               src={certificate}
               className="w-1/2 rounded-full shadow-sm hover:shadow-xl"
             />
@@ -113,7 +113,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="md:w-1/5 mb-2 mx-2 bg-white bg-opacity-80 justify-items-center px-5 py-10 rounded-lg hover:scale-105">
-            <img
+            <img alt=''
               src={achievement}
               className="w-1/2 rounded-full shadow-sm hover:shadow-xl"
             />
