@@ -26,19 +26,19 @@ export default function Footer() {
         <div className='lg:w-1/5 lg:container p-10'>
           <table>
           <Link to="https://www.linkedin.com/in/sushant-ambekar-066b06316/" target='_blank'><tr className='flex m-2 hover:text-black hover:bg-white hover:rounded-md hover:p-2'>
-                <img src={linkedin} className='w-7 h-7 opacity-70 rounded-lg cursor-pointer'/>
+                <img src={linkedin} className='w-7 h-7 opacity-70 rounded-lg cursor-pointer' alt=''/>
                 <h3 className='mx-2 items-center font-sans cursor-pointer '>LinkedIn</h3>
             </tr></Link>
             <a href="mailto:sushantsambekar@gmail.com"><tr className='flex m-2 hover:text-black hover:bg-white hover:rounded-md hover:p-2'>
-                <img src={email} className='w-7 h-7 opacity-70 rounded-lg cursor-pointer '/>
+                <img src={email} className='w-7 h-7 opacity-70 rounded-lg cursor-pointer 'alt=''/>
                 <h3 className='mx-2 items-center font-sans cursor-pointer'>Email</h3>
             </tr></a>
             <Link to="https://www.instagram.com/sushant_ambekar_10/"><tr className='flex m-2 cursor-pointer hover:text-black hover:bg-white hover:rounded-md hover:p-2'>
-                <img src={insta} className='w-7 h-7 opacity-70 rounded-lg'/>
+                <img src={insta} className='w-7 h-7 opacity-70 rounded-lg' alt=''/>
                 <h3 className='mx-2 items-center font-sans'>Instagram</h3>     
             </tr></Link>
             <Link to="https://www.facebook.com/mangal.ambekar.5" target="_blank"><tr className='flex m-2 cursor-pointer hover:text-black hover:bg-white hover:rounded-md hover:p-2'>
-                <img src={facebook} className='w-7 h-7 opacity-70 rounded-lg '/>
+                <img src={facebook} className='w-7 h-7 opacity-70 rounded-lg ' alt=''/>
                 <h3 className='mx-2 items-center font-sans'>Facebook</h3>
             </tr></Link>
           </table>
