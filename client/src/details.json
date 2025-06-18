@@ -1,0 +1,66 @@
+{
+    "personal_details": [
+        {
+      "full_name": "Sushant Sanjay Ambekar",
+      "email": [
+        "sushantsambekar@gmail.com",
+        " , 23030151@ycce.in"
+      ],
+      "diploma_branch": "Information Technology",
+      "btech_branch": "Computer Science & Engineering"
+    }
+    ],
+    "qualifications": 
+    [{
+      "ssc": "90.80%",
+      "diploma": "88%",
+      "SGPA":[ 
+        8.66, 8.80, 8.99
+      ],
+      "cgpa":"8.82"
+    }],
+    "achievements": [
+      "1st Rank in Final Projects in Diploma or Capstone Project Execution.",
+      "2nd Rank in Diploma in Information Technology at Government Polytechnic Nanded.",
+      "200+ Leetcode problems with 50+ days badge in 2025",
+      "2000+ Hackos in HackerRank",
+      "100+ GeeksForGeeks problems",
+      "4th Rank in Smackathon in Upsurge Event, YCCE-23.",
+      "One of finalists in 3+ Hackethons",
+      "5 star ratings in Java , SQL & Problem Solving in HackerRank",
+      "One of the top 10 rankers (CGPA) in Academics.",
+      "Training & Placement Co-ordinator @YCCE"
+    ],
+    "certifications": [
+      "Internship Certification @Kalavati Technologies pvr. ltd.",
+      "Internship Certification @My Job Grow",
+      "Java Certification | HackerRank",
+      "SQL Certification | HackerRank",
+      "Web Development | Udemy",
+      "DevOps Certification | IBM | Coursera ",
+      "AWS Cloud Certification | AWS | Coursera",
+      "AI & IBM Cloud Bootcamp Certification @IBM"
+    ],
+    "skills": [
+      "Java",
+      "Java SpringBoot",
+      "Android using Java",
+      "MySQL",
+      "MERN Stack",
+      "Tailwind CSS",
+      "HTML & CSS",
+      "JavaScript",
+      "Git & Github",
+      "Docker",
+      "Jenkins",
+      "Kubernetes",
+      "AWS Cloud",
+      "Python",
+      "C",
+      "Firebase",
+      "BootStrap",
+      "WordPress"
+      
+    ]
+  }
+  
